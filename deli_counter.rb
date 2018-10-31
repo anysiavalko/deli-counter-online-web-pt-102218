@@ -6,7 +6,7 @@ def line(deli)
     puts "The line is currently empty."
   else 
     deli.each_with_index do |name, index|
-      puts 
+     deli_array.push("#{index}. #{name}")
     
     index = katz_deli.index() puts katz_deli.join(" #{index} ")
   end
