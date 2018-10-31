@@ -7,7 +7,7 @@ def line(deli)
   else 
     deli.each_with_index do |name, index|
      deli_array.push("#{index}. #{name}")
-    
-    index = katz_deli.index() puts katz_deli.join(" #{index} ")
+  end
+  puts "The line is currently: #{deli_array.join(" ")}"
   end
 end
