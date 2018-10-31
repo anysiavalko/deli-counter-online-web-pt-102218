@@ -5,7 +5,7 @@ def line(deli)
   if deli.size == 0
     puts "The line is currently empty."
   else 
-    deli.each_with_index = "The line is currently: #{katz_deli[0]} "
+    deli.each_with_index = "
     
     index = katz_deli.index() puts katz_deli.join(" #{index} ")
   end
