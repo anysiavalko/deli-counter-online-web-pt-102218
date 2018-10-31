@@ -13,7 +13,7 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
-  deli_array = []
+  deli_push
   if deli.size == 0
     
   deli.each_with_index do |name, index|
