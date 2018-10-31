@@ -16,5 +16,4 @@ def take_a_number(deli, name)
   deli_push
   if deli.size == 0
     
-  deli.each_with_index do |name, index|
     puts "Welcome, #{name}. You are number #{index + 1} in line."
