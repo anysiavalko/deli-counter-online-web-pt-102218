@@ -12,5 +12,7 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, new_customer)
-  puts 
+def take_a_number(deli, name)
+  deli_array = []
+  deli.each_with_index do |name, index|
+    puts "Welcome, #{name}. You are number #{index + 1} in line."
