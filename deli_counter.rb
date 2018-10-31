@@ -9,5 +9,4 @@ def line(deli)
      deli_array.push("#{index}. #{name}")
   end
   puts "The line is currently: #{deli_array.join(" ")}"
-  end
 end
