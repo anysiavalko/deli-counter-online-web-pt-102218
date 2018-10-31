@@ -6,6 +6,5 @@ def line(katz_deli)
   else 
     katz_deli[0] = "The line is currently: #{katz_deli[0]} "
     puts katz_deli.join("  ")
-    
   end
 end
