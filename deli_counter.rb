@@ -15,6 +15,6 @@ end
 def take_a_number(deli, name)
   deli_array = []
   if deli.size == 0
-    puts ""
+    
   deli.each_with_index do |name, index|
     puts "Welcome, #{name}. You are number #{index + 1} in line."
